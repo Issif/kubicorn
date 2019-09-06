@@ -22,7 +22,7 @@ import (
 	appsv1beta2 "k8s.io/api/apps/v1beta2"
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	clusterv1 "k8s.io/kube-deploy/cluster-api/api/cluster/v1alpha1"
+	clusterv1 "k8s.io/kube-deploy/cluster-api/api/cluster/v1alpha2"
 )
 
 const (

@@ -28,7 +28,7 @@ import (
 	"github.com/kubicorn/kubicorn/pkg/namer"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"k8s.io/kube-deploy/cluster-api/api/cluster/v1alpha1"
+	"k8s.io/kube-deploy/cluster-api/api/cluster/v1alpha2"
 )
 
 // CreateCmd represents create command
