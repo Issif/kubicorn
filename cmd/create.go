@@ -21,6 +21,7 @@ import (
 
 	"encoding/json"
 
+	"github.com/kubernetes-sigs/cluster-api/api/cluster/v1alpha2"
 	"github.com/kubicorn/kubicorn/apis/cluster"
 	"github.com/kubicorn/kubicorn/pkg/cli"
 	"github.com/kubicorn/kubicorn/pkg/kubeconfig"
@@ -28,7 +29,6 @@ import (
 	"github.com/kubicorn/kubicorn/pkg/namer"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"k8s.io/kube-deploy/cluster-api/api/cluster/v1alpha2"
 )
 
 // CreateCmd represents create command

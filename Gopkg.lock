@@ -819,13 +819,13 @@
 
 [[projects]]
   branch = "master"
-  name = "k8s.io/kube-deploy"
+  name = "github.com/kubernetes-sigs"
   packages = [
-    "cluster-api/api/cluster/v1alpha1",
+    "cluster-api/api/cluster/v1alpha2",
     "cluster-api/client",
     "cluster-api/util"
   ]
-  revision = "edf4ba7cb64997234cd9746a3daacdb703584e2b"
+  revision = "80033f1255165a01be2e9ae0876eb98ba4537a8f"
 
 [[projects]]
   branch = "master"

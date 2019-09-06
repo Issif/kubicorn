@@ -33,13 +33,13 @@ import (
 
 	"encoding/json"
 
+	"github.com/kubernetes-sigs/cluster-api/api/cluster/v1alpha2"
 	"github.com/kubicorn/kubicorn/pkg/controllerHackCache"
 	"github.com/kubicorn/kubicorn/pkg/kubeconfig"
 	"github.com/kubicorn/kubicorn/pkg/logger"
 	apiextensionsclient "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/tools/clientcmd"
-	"k8s.io/kube-deploy/cluster-api/api/cluster/v1alpha2"
 	"k8s.io/kube-deploy/cluster-api/client"
 	"k8s.io/kube-deploy/cluster-api/util"
 )
